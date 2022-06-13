@@ -5,6 +5,7 @@ export default defineConfig({
   description: "Geonhee's development blog!",
   themeConfig: {
     nav: [{ text: 'Home', link: '/' }],
-    sidebar: 'auto'
+    sidebar: 'auto',
+    smoothScroll: true
   }
 })
