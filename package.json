@@ -9,7 +9,7 @@
     "vuepress": "^1.9.7"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs --port 8000",
     "docs:build": "vuepress build docs"
   }
 }
