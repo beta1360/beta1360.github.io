@@ -10,6 +10,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs --port 8000",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:eject": "vuepress eject"
   }
 }
