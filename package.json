@@ -1,0 +1,11 @@
+{
+  "name": "beta1360.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/beta1360/beta1360.github.io.git",
+  "author": "Geonhee Lee <beta1360@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
