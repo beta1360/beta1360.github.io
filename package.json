@@ -1,16 +1,19 @@
 {
   "name": "beta1360.github.io",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "description": "Geonhee&#39;s development blog",
   "main": "index.js",
-  "repository": "https://github.com/beta1360/beta1360.github.io.git",
-  "author": "Geonhee Lee <beta1360@naver.com>",
+  "authors": {
+    "name": "Geonhee Lee",
+    "email": "beta1360@naver.com"
+  },
+  "repository": "beta1360.github.io/beta1360.github.io",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.7"
-  },
-  "scripts": {
-    "docs:dev": "vuepress dev docs --port 8000",
-    "docs:build": "vuepress build docs",
-    "docs:eject": "vuepress eject"
+    "vuepress": "^1.5.3"
   }
 }
