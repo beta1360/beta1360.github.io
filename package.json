@@ -9,8 +9,6 @@
   },
   "repository": "beta1360.github.io/beta1360.github.io",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
